@@ -1,0 +1,33 @@
+function bubble(arr,n){
+    let i,j,temp;
+    let swapped;
+
+    for(i=0;i<n;i++){
+        swapped = false;
+        for(j=0;j<n-1;j++){
+            if(arr[j]>arr[j+1]){
+                temp = arr[j];
+                arr[j]=arr[j+1];
+                arr[i]=temp;
+                swapped = true;
+            }
+        }
+        if(swapped = false){
+            break;
+        }
+    }
+
+}
+
+function printArray(arr,n){
+    let i;
+    for(i=0;i<n;i++){
+        console.log(arr[i]+" ")
+    }
+}
+
+
+let arr= [45,6,43,5465,6754,454,56]
+let n = arr.length
+bubble(arr,n)
+printArray(arr,n)
