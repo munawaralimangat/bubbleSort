@@ -30,4 +30,4 @@ function printArray(arr,n){
 let arr= [45,6,43,5465,6754,454,56]
 let n = arr.length
 bubble(arr,n)
-printArray(arr,n,arr.length)
+printArray(arr,n,arr)
